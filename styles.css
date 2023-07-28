@@ -1,0 +1,81 @@
+#principal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    animation-name: epico;
+    animation-duration: 8s;
+}
+#bum {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation-duration: 3s;
+    animation-name: epico;
+    animation-delay: 5s;
+}
+#oppie {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-name: oppie;
+    animation-delay: 8s;
+}
+#rey {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation-duration: 8s;
+    animation-name: epico;
+    animation-delay: 10s;
+}
+@keyframes epico {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes ocultar {
+    from {
+        opacity: 0s
+    }
+    to {
+        opacity: 1s
+    }
+}
+@keyframes oppie {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#mensaje {
+    text-align: center;
+    opacity: 1;
+    animation-name: texto;
+    animation-duration: 18s;
+}
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.final {
+    width: 50%;
+}
